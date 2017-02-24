@@ -11,14 +11,51 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Minimum iOS 8, Swift 3
+
 ## Installation
 
 SSHoneyCombView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SSHoneyCombView"
+pod 'SSHoneyCombView'
 ```
+
+Make sure to: 
+use_frameworks!
+
+add SSHoneyCombView.framework to “Linked Frameworks and Libraries” under Target->General, and build
+
+storyboard:
+drag and drop a UIView and change both it’s “Class” and “Module” to SSHoneyCombView
+
+resize your SSHoneyCombView and add constraints to use Autoresizing
+
+create and outlet in your ViewController
+
+in ViewController:
+
+import HoneyCombView
+
+create and array of SSHoneyCombObject and assign this array to self.ssHoneyCombView.honeyCombObjects
+
+conform to SSHoneyCombViewDelegate
+
+func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
+print(item.name)
+}
+
+optional you can set 
+
+self.honeyCombView.numberOfItemsInRow 
+// NOTE: numberOfItemsInRow can’t be less than 2
+
+finally you can add variables to HoneyCombObject class to fit your needs
+basic HoneyCombObject has “name” property only
+
+
+for more details, please refer to Example Project
 
 ## Author
 

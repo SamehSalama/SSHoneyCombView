@@ -26,7 +26,7 @@ Very Simple to use.
   # s.screenshots     = 'https://dl.dropboxusercontent.com/u/100318614/SSHoneyCombView/SSHoneyCombView.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'samehsalama@hotmail.com' => 'samehsalama@hotmail.com' }
-  s.source           = { :git => 'https://github.com/SamehSalama@hotmail.com/SSHoneyCombView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SamehSalama/SSHoneyCombView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
