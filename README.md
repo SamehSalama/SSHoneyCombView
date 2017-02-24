@@ -57,7 +57,6 @@ for i in 0...99 {
    self.honeycombObjectsArray.append(honeycombObject)
 }
 ```
-
 and assign this array to self.ssHoneyCombView.honeyCombObjects
 ```ruby
 self.ssHoneyCombView.honeyCombObjects = self.honeycombObjectsArray
@@ -71,11 +70,10 @@ self.honeyCombView.numberOfItemsInRow = 7
 
 8- conform to SSHoneyCombViewDelegate
 
-9- 
+9- set delegate
 ```ruby
 self.ssHoneyCombView.delegate = self
 ```
-
 
 10- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
 print(item.name)
