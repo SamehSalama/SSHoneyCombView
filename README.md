@@ -38,18 +38,44 @@ storyboard:
 
 in ViewController:
 
-5- import SSHoneyCombView
+5- 
+```ruby
+import SSHoneyCombView
+```
 
-6- create and array of SSHoneyCombObject and assign this array to self.ssHoneyCombView.honeyCombObjects
+6- create and array of SSHoneyCombObject 
+```ruby
+var honeycombObjectsArray: [SSHoneyCombObject] = []
+```
 
-7- optional you can set 
+create and append SSHoneyCombObject to honeycombObjectsArray
+Ex.
+```ruby
+for i in 0...99 {
+   let honeycombObject = SSHoneyCombObject()
+   honeycombObject.name = "Honey Object \(i)"
+   self.honeycombObjectsArray.append(honeycombObject)
+}
+```
 
-self.honeyCombView.numberOfItemsInRow 
+and assign this array to self.ssHoneyCombView.honeyCombObjects
+```ruby
+self.ssHoneyCombView.honeyCombObjects = self.honeycombObjectsArray
+```
+
+7- optional you can set numberOfItemsInRow 
+```ruby
+self.honeyCombView.numberOfItemsInRow = 7
+```
 //NOTE: numberOfItemsInRow can’t be less than 2
 
 8- conform to SSHoneyCombViewDelegate
 
-9- self.ssHoneyCombView.delegate = self
+9- 
+```ruby
+self.ssHoneyCombView.delegate = self
+```
+
 
 10- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
 print(item.name)
