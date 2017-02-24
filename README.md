@@ -38,7 +38,7 @@ storyboard:
 
 in ViewController:
 
-5- import HoneyCombView
+5- import SSHoneyCombView
 
 6- create and array of SSHoneyCombObject and assign this array to self.ssHoneyCombView.honeyCombObjects
 
@@ -49,7 +49,9 @@ self.honeyCombView.numberOfItemsInRow
 
 8- conform to SSHoneyCombViewDelegate
 
-9- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
+9- self.ssHoneyCombView.delegate = self
+
+10- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
 print(item.name)
 }
 
