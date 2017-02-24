@@ -75,12 +75,14 @@ self.honeyCombView.numberOfItemsInRow = 7
 self.ssHoneyCombView.delegate = self
 ```
 
-10- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
+10- 
+```ruby
+func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
 print(item.name)
 }
+```
 
-
-finally you can add variables to HoneyCombObject class to fit your needs
+Finally you can add variables to HoneyCombObject class to fit your needs
 basic HoneyCombObject has “name” property only
 
 
@@ -88,7 +90,7 @@ for more details, please refer to Example Project
 
 ## Author
 
-samehsalama@hotmail.com, samehsalama@hotmail.com
+Sameh Salama, samehsalama@hotmail.com
 
 ## License
 
