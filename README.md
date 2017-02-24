@@ -25,31 +25,34 @@ pod 'SSHoneyCombView'
 Make sure to: 
 use_frameworks!
 
-add SSHoneyCombView.framework to “Linked Frameworks and Libraries” under Target->General, and build
+## Usage
+
+1- add SSHoneyCombView.framework to “Linked Frameworks and Libraries” under Target->General, and build
 
 storyboard:
-drag and drop a UIView and change both it’s “Class” and “Module” to SSHoneyCombView
+2- drag and drop a UIView and change both “Class” and “Module” to SSHoneyCombView
 
-resize your SSHoneyCombView and add constraints to use Autoresizing
+3- resize your SSHoneyCombView and add constraints to use Autoresizing
 
-create and outlet in your ViewController
+4- create and outlet in your ViewController (Ex. ssHoneyCombView)
 
 in ViewController:
 
-import HoneyCombView
+5- import HoneyCombView
 
-create and array of SSHoneyCombObject and assign this array to self.ssHoneyCombView.honeyCombObjects
+6- create and array of SSHoneyCombObject and assign this array to self.ssHoneyCombView.honeyCombObjects
 
-conform to SSHoneyCombViewDelegate
+7- optional you can set 
 
-func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
+self.honeyCombView.numberOfItemsInRow 
+//NOTE: numberOfItemsInRow can’t be less than 2
+
+8- conform to SSHoneyCombViewDelegate
+
+9- func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
 print(item.name)
 }
 
-optional you can set 
-
-self.honeyCombView.numberOfItemsInRow 
-// NOTE: numberOfItemsInRow can’t be less than 2
 
 finally you can add variables to HoneyCombObject class to fit your needs
 basic HoneyCombObject has “name” property only
