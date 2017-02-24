@@ -40,7 +40,7 @@ storyboard:
 
 3- resize your SSHoneyCombView and add constraints to use Autoresizing
 
-4- create and outlet in your ViewController (Ex. ssHoneyCombView)
+4- create an outlet in your ViewController (Ex. ssHoneyCombView)
 
 in ViewController:
 
