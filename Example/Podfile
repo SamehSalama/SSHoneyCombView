@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSHoneyCombView_Example' do
+  pod 'SSHoneyCombView', :path => '../'
+
+  target 'SSHoneyCombView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
