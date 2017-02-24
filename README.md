@@ -77,8 +77,8 @@ self.ssHoneyCombView.delegate = self
 
 10- 
 ```ruby
-func honeyComb(_ honeyComb: HoneyCombView, didSelect item: HoneyCombObject) {
-print(item.name)
+func SSHoneyComb(_ SSHoneyComb: SSHoneyCombView, didSelect item: SSHoneyCombObject) {
+    print(item.name)
 }
 ```
 
