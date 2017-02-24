@@ -91,9 +91,12 @@ for more details, please refer to Example Project
 ## Author
 
 Sameh Salama 
+
 samehsalama@hotmail.com
+
 https://eg.linkedin.com/in/sameh-salama-98389174
-DaBlueAlien.com
+
+http://DaBlueAlien.com
 
 ## License
 
