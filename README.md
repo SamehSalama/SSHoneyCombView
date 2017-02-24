@@ -13,6 +13,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Minimum iOS 8, Swift 3
 
+
+## Screenshots
+
+![Alt text](https://dl.dropboxusercontent.com/u/100318614/SSHoneyCombView/SSHoneyCombView.png "Screenshot")
+
+
 ## Installation
 
 SSHoneyCombView is available through [CocoaPods](http://cocoapods.org). To install
