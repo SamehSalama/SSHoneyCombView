@@ -1,0 +1,16 @@
+PODS:
+  - SSHoneyCombView (0.1.0)
+
+DEPENDENCIES:
+  - SSHoneyCombView (from `../`)
+
+EXTERNAL SOURCES:
+  SSHoneyCombView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SSHoneyCombView: e2552b02c3de3ce82e49600c23c06b226fbb2c45
+
+PODFILE CHECKSUM: 7be6a95b5700427287c707f653fb03ff5e0c4eb2
+
+COCOAPODS: 1.2.0

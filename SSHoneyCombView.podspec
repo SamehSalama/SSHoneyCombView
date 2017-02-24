@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SSHoneyCombView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SSHoneyCombView.'
+  s.summary          = 'A honey comb View that looks like a collection view with hexagon shaped items written in Swift 3.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A honey comb View that looks like a collection view with hexagon shaped items written in Swift 3.
+Very Simple to use.
                        DESC
 
   s.homepage         = 'https://github.com/samehsalama@hotmail.com/SSHoneyCombView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'https://dl.dropboxusercontent.com/u/100318614/SSHoneyCombView/SSHoneyCombView.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'samehsalama@hotmail.com' => 'samehsalama@hotmail.com' }
   s.source           = { :git => 'https://github.com/samehsalama@hotmail.com/SSHoneyCombView.git', :tag => s.version.to_s }
@@ -32,11 +33,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SSHoneyCombView/Classes/**/*'
   
-  # s.resource_bundles = {
+  s.resource_bundles = {
   #   'SSHoneyCombView' => ['SSHoneyCombView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		160A631C0471BA69D359EF41 /* SSHoneyCombView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSHoneyCombView.podspec; path = ../SSHoneyCombView.podspec; sourceTree = "<group>"; };
+		160A631C0471BA69D359EF41 /* SSHoneyCombView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSHoneyCombView.podspec; path = ../SSHoneyCombView.podspec; sourceTree = "<group>"; };
 		2086CC1075430D8C2CF6DFCB /* Pods-SSHoneyCombView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSHoneyCombView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSHoneyCombView_Tests/Pods-SSHoneyCombView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		290F8476EDF720DACC26EBA3 /* Pods-SSHoneyCombView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSHoneyCombView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSHoneyCombView_Example/Pods-SSHoneyCombView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5D6684EE84DDA92EF93CDB7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D6684EE84DDA92EF93CDB7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SSHoneyCombView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHoneyCombView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		8A72038E3E3D196B74FD9772 /* Pods_SSHoneyCombView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSHoneyCombView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41014DC2F4406F06AC1259F /* Pods-SSHoneyCombView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSHoneyCombView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSHoneyCombView_Example/Pods-SSHoneyCombView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1FC0CA8E68103B8445EB2B9 /* Pods-SSHoneyCombView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSHoneyCombView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSHoneyCombView_Tests/Pods-SSHoneyCombView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBD9FF82F1C9D29295A15226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CBD9FF82F1C9D29295A15226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E1D483AF194BB060CA7B3EFF /* Pods_SSHoneyCombView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSHoneyCombView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4FP3W45586;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -496,7 +497,9 @@
 			baseConfigurationReference = 290F8476EDF720DACC26EBA3 /* Pods-SSHoneyCombView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FP3W45586;
 				INFOPLIST_FILE = SSHoneyCombView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +513,9 @@
 			baseConfigurationReference = A41014DC2F4406F06AC1259F /* Pods-SSHoneyCombView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FP3W45586;
 				INFOPLIST_FILE = SSHoneyCombView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

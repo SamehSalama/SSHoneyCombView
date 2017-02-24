@@ -1,0 +1,22 @@
+{
+  "name": "SSHoneyCombView",
+  "version": "0.1.0",
+  "summary": "A short description of SSHoneyCombView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samehsalama@hotmail.com/SSHoneyCombView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samehsalama@hotmail.com": "samehsalama@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samehsalama@hotmail.com/SSHoneyCombView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSHoneyCombView/Classes/**/*"
+}
