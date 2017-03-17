@@ -16,7 +16,7 @@ Minimum iOS 8, Swift 3
 
 ## Screenshots
 
-![Alt text](https://dl.dropboxusercontent.com/u/100318614/SSHoneyCombView/SSHoneyCombView.png "Screenshot")
+![Alt text](https://www.dropbox.com/s/1bh1pulwll27pfq/SSHoneyCombView.png?dl=0 "Screenshot")
 
 
 ## Installation
