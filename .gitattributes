@@ -1,4 +1,3 @@
 $ cat .gitattributes
 *.rb linguist-language=Swift
-Example/Pods/Target Support Files/Pods-SSHoneyCombView_Tests/* linguist-generated
 *.sh linguist-generated
